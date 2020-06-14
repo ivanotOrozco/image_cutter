@@ -98,7 +98,7 @@ In depth is the html5 Canvas API that does the job. The source image to cut is i
 html, css and javascript main idea: [https://codepen.io/ivanot/pen/GRpYVxm](https://codepen.io/ivanot/pen/GRpYVxm)
 
 ## Style
-this are the css class, feel free to overwrite.
+These are the CSS classes, feel free to overwrite.
 "ic" is for **i**mage **c**utter
 
     .ic-scroll{
