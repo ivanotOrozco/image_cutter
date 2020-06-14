@@ -1,7 +1,7 @@
 {
   "name": "image-cutter",
   "version": "0.0.1",
-  "description": "Put a description here",
+  "description": "React component for take a square from an image. Isefull for edit profile photo before saving.",
   "main": "dist/main.js",
   "dependencies": {
     "react": "^16.13.1",
@@ -12,8 +12,8 @@
     "start": "react-scripts start"
   },
   "author": {
-    "name": "Your name",
-    "email": "your email"
+    "name": "Ivanot Orozco Morales",
+    "email": "ivanot16v2@gmail.com"
   },
   "devDependencies": {
     "@babel/core": "^7.10.2",
