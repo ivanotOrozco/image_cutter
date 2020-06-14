@@ -1,7 +1,7 @@
 {
   "name": "image-cutter",
-  "version": "0.0.1",
-  "description": "React component for take a square from an image. Isefull for edit profile photo before saving.",
+  "version": "0.0.2",
+  "description": "React component for take a square from an image. Usefull for edit profile photo before saving.",
   "main": "dist/main.js",
   "dependencies": {
     "react": "^16.13.1",
@@ -37,5 +37,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/ivanotOrozco/image_cutter.git"
+   },
+   "license": "MIT"
 }
