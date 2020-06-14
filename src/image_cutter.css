@@ -1,0 +1,71 @@
+.ic-scroll{
+  overflow: scroll;
+  background: #000;
+  position: relative;
+  width:100%;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+.ic-scroll > canvas{
+  position: absolute;
+  top:0;
+  left:0;
+}
+.ic-scroll::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+.ic-scroll::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+.ic-scroll::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.75);
+  border: 0px none #ffffff;
+  border-radius: 16px;
+}
+.ic-scroll::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.25);
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+
+.ic-scroll::-webkit-scrollbar-corner {
+  background: transparent;
+}
+.ic-button{
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid rgba(255,255,255,0.75);
+  border-radius:50%;
+  background-color: rgba(0,0,0,.45);
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  color:#fff;
+  cursor:pointer;
+  font-size: 1.3rem;
+  margin: 0 .25rem;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; 
+}
+.ic-buttons{
+  position:sticky;
+  top:5%;
+  left:5%;
+  display:inline-flex;
+}
+.ic-background{
+  z-index: 10000000000;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  background-color: #000000c4;
+}

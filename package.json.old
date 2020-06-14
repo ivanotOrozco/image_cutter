@@ -1,0 +1,48 @@
+{
+  "name": "image-cutter",
+  "version": "0.0.1",
+  "description": "Put a description here",
+  "main": "build/index.js",
+  "peerDependencies": {
+    "react": "^16.13.1"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack": "4.43.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts start",
+    "build": "webpack"
+  },
+  "author": {
+    "name": "Your name",
+    "email": "your email"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "7.1.5",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "css-loader": "^3.6.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "react-scripts": "3.4.1",
+    "style-loader": "1.2.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
