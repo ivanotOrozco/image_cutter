@@ -42,6 +42,7 @@
       "type": "git",
       "url": "https://github.com/ivanotOrozco/image_cutter.git"
    },
+   "keywords": ["reactjs component", "image cutter", "image cropper"],
    "license": "MIT",
    "homepage": "https://github.com/ivanotOrozco/image_cutter.git"
 }
