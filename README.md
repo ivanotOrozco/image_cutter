@@ -3,6 +3,7 @@
 React.js component to cut an image and generate a square image from it.
 Useful to edit profile images before saving
 
+![live on phone](https://i.imgur.com/4etS93i.gif)
 
 ## Install
     npm i image-cutter
